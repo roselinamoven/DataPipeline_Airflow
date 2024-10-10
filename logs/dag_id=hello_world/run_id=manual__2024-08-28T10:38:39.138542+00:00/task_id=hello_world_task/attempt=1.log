@@ -1,0 +1,28 @@
+[2024-08-28T12:38:41.966+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hello_world.hello_world_task manual__2024-08-28T10:38:39.138542+00:00 [queued]>
+[2024-08-28T12:38:41.972+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hello_world.hello_world_task manual__2024-08-28T10:38:39.138542+00:00 [queued]>
+[2024-08-28T12:38:41.972+0200] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-28T12:38:41.972+0200] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-08-28T12:38:41.972+0200] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-28T12:38:41.979+0200] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): hello_world_task> on 2024-08-28 10:38:39.138542+00:00
+[2024-08-28T12:38:41.986+0200] {standard_task_runner.py:55} INFO - Started process 78792 to run task
+[2024-08-28T12:38:42.000+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'hello_world', 'hello_world_task', 'manual__2024-08-28T10:38:39.138542+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/Simple_hello_world.py', '--cfg-path', '/var/folders/q3/lf85n5dd03zdfbv5xqcw4__40000gn/T/tmpqfayafui']
+[2024-08-28T12:38:42.002+0200] {standard_task_runner.py:83} INFO - Job 9: Subtask hello_world_task
+[2024-08-28T12:38:42.030+0200] {task_command.py:389} INFO - Running <TaskInstance: hello_world.hello_world_task manual__2024-08-28T10:38:39.138542+00:00 [running]> on host roselinas-mbp
+[2024-08-28T12:38:42.063+0200] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Roslina_m
+AIRFLOW_CTX_DAG_ID=hello_world
+AIRFLOW_CTX_TASK_ID=hello_world_task
+AIRFLOW_CTX_EXECUTION_DATE=2024-08-28T10:38:39.138542+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-08-28T10:38:39.138542+00:00
+[2024-08-28T12:38:42.063+0200] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/q3/lf85n5dd03zdfbv5xqcw4__40000gn/T
+[2024-08-28T12:38:42.064+0200] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo Hello world used with!']
+[2024-08-28T12:38:42.073+0200] {subprocess.py:86} INFO - Output:
+[2024-08-28T12:38:42.077+0200] {subprocess.py:93} INFO - Hello world used with!
+[2024-08-28T12:38:42.077+0200] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-08-28T12:38:42.088+0200] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=hello_world, task_id=hello_world_task, execution_date=20240828T103839, start_date=20240828T103841, end_date=20240828T103842
+[2024-08-28T12:38:42.106+0200] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-08-28T12:38:42.115+0200] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

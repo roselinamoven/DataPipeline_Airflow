@@ -1,0 +1,27 @@
+[2024-08-28T13:45:41.376+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: executing_multiple_tasks.taskE manual__2024-08-28T11:45:31.513842+00:00 [queued]>
+[2024-08-28T13:45:41.382+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: executing_multiple_tasks.taskE manual__2024-08-28T11:45:31.513842+00:00 [queued]>
+[2024-08-28T13:45:41.382+0200] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-28T13:45:41.382+0200] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-08-28T13:45:41.382+0200] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-28T13:45:41.388+0200] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): taskE> on 2024-08-28 11:45:31.513842+00:00
+[2024-08-28T13:45:41.396+0200] {standard_task_runner.py:55} INFO - Started process 82109 to run task
+[2024-08-28T13:45:41.401+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'executing_multiple_tasks', 'taskE', 'manual__2024-08-28T11:45:31.513842+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/multiple_dags.py', '--cfg-path', '/var/folders/q3/lf85n5dd03zdfbv5xqcw4__40000gn/T/tmph4nq9w2u']
+[2024-08-28T13:45:41.403+0200] {standard_task_runner.py:83} INFO - Job 22: Subtask taskE
+[2024-08-28T13:45:41.432+0200] {task_command.py:389} INFO - Running <TaskInstance: executing_multiple_tasks.taskE manual__2024-08-28T11:45:31.513842+00:00 [running]> on host roselinas-mbp
+[2024-08-28T13:45:41.459+0200] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=loonycorn
+AIRFLOW_CTX_DAG_ID=executing_multiple_tasks
+AIRFLOW_CTX_TASK_ID=taskE
+AIRFLOW_CTX_EXECUTION_DATE=2024-08-28T11:45:31.513842+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-08-28T11:45:31.513842+00:00
+[2024-08-28T13:45:41.460+0200] {subprocess.py:63} INFO - Tmp dir root location: 
+ /var/folders/q3/lf85n5dd03zdfbv5xqcw4__40000gn/T
+[2024-08-28T13:45:41.460+0200] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '']
+[2024-08-28T13:45:41.470+0200] {subprocess.py:86} INFO - Output:
+[2024-08-28T13:45:41.477+0200] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-08-28T13:45:41.488+0200] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=executing_multiple_tasks, task_id=taskE, execution_date=20240828T114531, start_date=20240828T114541, end_date=20240828T114541
+[2024-08-28T13:45:41.507+0200] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-08-28T13:45:41.515+0200] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

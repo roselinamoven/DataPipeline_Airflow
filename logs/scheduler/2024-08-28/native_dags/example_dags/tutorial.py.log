@@ -1,0 +1,179 @@
+[2024-08-28T10:11:07.875+0200] {processor.py:153} INFO - Started process (PID=74910) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:11:07.877+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:11:07.879+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:07.878+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:11:07.895+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:11:07.953+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:07.953+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:tutorial
+[2024-08-28T10:11:07.959+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:07.959+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:tutorial
+[2024-08-28T10:11:07.963+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:07.962+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:tutorial
+[2024-08-28T10:11:07.963+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:07.963+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:11:07.972+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:07.972+0200] {dag.py:2726} INFO - Creating ORM DAG for tutorial
+[2024-08-28T10:11:07.981+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:07.981+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:11:07.980482+00:00, run_after=2024-08-28T08:11:07.980482+00:00
+[2024-08-28T10:11:07.991+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.124 seconds
+[2024-08-28T10:11:53.316+0200] {processor.py:153} INFO - Started process (PID=74970) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:11:53.318+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:11:53.319+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:53.319+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:11:53.335+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:11:53.350+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:53.350+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:11:53.364+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:53.364+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:11:53.363871+00:00, run_after=2024-08-28T08:11:53.363871+00:00
+[2024-08-28T10:11:53.376+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.063 seconds
+[2024-08-28T10:12:33.499+0200] {processor.py:153} INFO - Started process (PID=75042) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:12:33.501+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:12:33.502+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:33.502+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:12:33.521+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:12:33.541+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:33.541+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:12:33.554+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:33.554+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:12:33.554432+00:00, run_after=2024-08-28T08:12:33.554432+00:00
+[2024-08-28T10:12:33.565+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2024-08-28T10:13:16.937+0200] {processor.py:153} INFO - Started process (PID=75107) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:13:16.938+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:13:16.939+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:16.938+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:13:16.954+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:13:16.968+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:16.967+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:13:16.981+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:16.980+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:13:16.980645+00:00, run_after=2024-08-28T08:13:16.980645+00:00
+[2024-08-28T10:13:16.992+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2024-08-28T10:13:58.239+0200] {processor.py:153} INFO - Started process (PID=75161) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:13:58.241+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:13:58.243+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:58.242+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:13:58.262+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:13:58.280+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:58.279+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:13:58.298+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:58.298+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:13:58.297792+00:00, run_after=2024-08-28T08:13:58.297792+00:00
+[2024-08-28T10:13:58.309+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.074 seconds
+[2024-08-28T10:14:41.068+0200] {processor.py:153} INFO - Started process (PID=75232) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:14:41.070+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:14:41.072+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:41.071+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:14:41.093+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:14:41.111+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:41.111+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:14:41.125+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:41.125+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:14:41.125020+00:00, run_after=2024-08-28T08:14:41.125020+00:00
+[2024-08-28T10:14:41.136+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.073 seconds
+[2024-08-28T10:15:22.417+0200] {processor.py:153} INFO - Started process (PID=75277) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:15:22.419+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:15:22.420+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:22.420+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:15:22.441+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:15:22.458+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:22.458+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:15:22.470+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:22.470+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:15:22.470591+00:00, run_after=2024-08-28T08:15:22.470591+00:00
+[2024-08-28T10:15:22.481+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.067 seconds
+[2024-08-28T10:16:03.304+0200] {processor.py:153} INFO - Started process (PID=75321) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:16:03.306+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:16:03.307+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:03.307+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:16:03.325+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:16:03.339+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:03.338+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:16:03.351+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:03.351+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:16:03.351029+00:00, run_after=2024-08-28T08:16:03.351029+00:00
+[2024-08-28T10:16:03.361+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.061 seconds
+[2024-08-28T10:16:42.569+0200] {processor.py:153} INFO - Started process (PID=75367) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:16:42.570+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:16:42.572+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:42.571+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:16:42.591+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:16:42.607+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:42.607+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:16:42.619+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:42.619+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:16:42.619556+00:00, run_after=2024-08-28T08:16:42.619556+00:00
+[2024-08-28T10:16:42.629+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2024-08-28T10:17:25.025+0200] {processor.py:153} INFO - Started process (PID=75413) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:17:25.027+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:17:25.028+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:17:25.028+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:17:25.048+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:17:25.065+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:17:25.064+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:17:25.078+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:17:25.077+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:17:25.077679+00:00, run_after=2024-08-28T08:17:25.077679+00:00
+[2024-08-28T10:17:25.087+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2024-08-28T10:43:46.645+0200] {processor.py:153} INFO - Started process (PID=75509) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:43:46.647+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:43:46.648+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:43:46.648+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:43:46.669+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:43:46.685+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:43:46.685+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:43:46.699+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:43:46.699+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:43:46.698875+00:00, run_after=2024-08-28T08:43:46.698875+00:00
+[2024-08-28T10:43:46.710+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.068 seconds
+[2024-08-28T10:44:29.612+0200] {processor.py:153} INFO - Started process (PID=75567) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:44:29.614+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:44:29.617+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:44:29.616+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:44:29.642+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:44:29.663+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:44:29.663+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:44:29.678+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:44:29.678+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:44:29.677806+00:00, run_after=2024-08-28T08:44:29.677806+00:00
+[2024-08-28T10:44:29.688+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.081 seconds
+[2024-08-28T10:45:11.293+0200] {processor.py:153} INFO - Started process (PID=75627) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:45:11.299+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:45:11.300+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:11.300+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:45:11.322+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:45:11.341+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:11.340+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:45:11.355+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:11.355+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:45:11.354976+00:00, run_after=2024-08-28T08:45:11.354976+00:00
+[2024-08-28T10:45:11.369+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.080 seconds
+[2024-08-28T10:45:53.165+0200] {processor.py:153} INFO - Started process (PID=75674) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:45:53.167+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:45:53.169+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:53.168+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:45:53.187+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:45:53.203+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:53.203+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:45:53.216+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:53.216+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:45:53.215848+00:00, run_after=2024-08-28T08:45:53.215848+00:00
+[2024-08-28T10:45:53.227+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2024-08-28T10:46:33.937+0200] {processor.py:153} INFO - Started process (PID=75718) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:46:33.940+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:46:33.941+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:33.940+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:46:33.960+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:46:33.978+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:33.978+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:46:33.992+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:33.992+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:46:33.991872+00:00, run_after=2024-08-28T08:46:33.991872+00:00
+[2024-08-28T10:46:34.002+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.069 seconds
+[2024-08-28T10:47:15.516+0200] {processor.py:153} INFO - Started process (PID=75772) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:47:15.518+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:47:15.520+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:15.519+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:47:15.539+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:47:15.554+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:15.553+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:47:15.567+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:15.566+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:47:15.566781+00:00, run_after=2024-08-28T08:47:15.566781+00:00
+[2024-08-28T10:47:15.577+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2024-08-28T10:47:56.972+0200] {processor.py:153} INFO - Started process (PID=75823) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:47:56.975+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:47:56.976+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:56.976+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:47:56.993+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:47:57.007+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:57.007+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:47:57.020+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:57.019+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:47:57.019596+00:00, run_after=2024-08-28T08:47:57.019596+00:00
+[2024-08-28T10:47:57.031+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.064 seconds
+[2024-08-28T10:48:38.391+0200] {processor.py:153} INFO - Started process (PID=75887) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:48:38.393+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:48:38.394+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:38.394+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:48:38.413+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:48:38.429+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:38.429+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:48:38.441+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:38.441+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:48:38.441279+00:00, run_after=2024-08-28T08:48:38.441279+00:00
+[2024-08-28T10:48:38.452+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2024-08-28T10:49:19.591+0200] {processor.py:153} INFO - Started process (PID=75941) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:49:19.593+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:49:19.594+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:19.594+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:49:19.613+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:49:19.627+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:19.627+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:49:19.640+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:19.640+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:49:19.640209+00:00, run_after=2024-08-28T08:49:19.640209+00:00
+[2024-08-28T10:49:19.652+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.065 seconds
+[2024-08-28T10:50:01.255+0200] {processor.py:153} INFO - Started process (PID=75986) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:50:01.257+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:50:01.259+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:01.259+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:50:01.280+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:50:01.299+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:01.299+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:50:01.313+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:01.313+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:50:01.313294+00:00, run_after=2024-08-28T08:50:01.313294+00:00
+[2024-08-28T10:50:01.324+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.072 seconds
+[2024-08-28T10:50:42.429+0200] {processor.py:153} INFO - Started process (PID=76031) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:50:42.431+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:50:42.432+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:42.432+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:50:42.451+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:50:42.464+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:42.464+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:50:42.477+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:42.476+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:50:42.476781+00:00, run_after=2024-08-28T08:50:42.476781+00:00
+[2024-08-28T10:50:42.486+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.062 seconds
+[2024-08-28T10:51:23.217+0200] {processor.py:153} INFO - Started process (PID=76092) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:51:23.217+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:51:23.218+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:23.218+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:51:23.232+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:51:23.248+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:23.248+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:51:23.260+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:23.260+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:51:23.260190+00:00, run_after=2024-08-28T08:51:23.260190+00:00
+[2024-08-28T10:51:23.272+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.058 seconds
+[2024-08-28T10:52:03.937+0200] {processor.py:153} INFO - Started process (PID=76144) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:52:03.940+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:52:03.951+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:03.951+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:52:03.970+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:52:03.988+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:03.988+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:52:04.006+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:04.005+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:52:04.005351+00:00, run_after=2024-08-28T08:52:04.005351+00:00
+[2024-08-28T10:52:04.018+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.088 seconds
+[2024-08-28T10:52:45.751+0200] {processor.py:153} INFO - Started process (PID=76193) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:52:45.753+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:52:45.754+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:45.754+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:52:45.773+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:52:45.788+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:45.787+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:52:45.801+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:45.801+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:52:45.801096+00:00, run_after=2024-08-28T08:52:45.801096+00:00
+[2024-08-28T10:52:45.813+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.066 seconds
+[2024-08-28T10:53:28.130+0200] {processor.py:153} INFO - Started process (PID=76247) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:53:28.131+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py for tasks to queue
+[2024-08-28T10:53:28.132+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:53:28.132+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:53:28.148+0200] {processor.py:753} INFO - DAG(s) dict_keys(['tutorial']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py
+[2024-08-28T10:53:28.164+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:53:28.163+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:53:28.176+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:53:28.176+0200] {dag.py:3456} INFO - Setting next_dagrun for tutorial to 2024-08-27T08:53:28.176420+00:00, run_after=2024-08-28T08:53:28.176420+00:00
+[2024-08-28T10:53:28.186+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/tutorial.py took 0.060 seconds

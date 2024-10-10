@@ -1,0 +1,172 @@
+[2024-08-28T10:11:22.129+0200] {processor.py:153} INFO - Started process (PID=74938) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:11:22.130+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:11:22.131+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:22.131+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:11:22.153+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:11:22.214+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:22.213+0200] {manager.py:504} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-08-28T10:11:22.218+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:22.218+0200] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-08-28T10:11:22.221+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:22.221+0200] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-08-28T10:11:22.222+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:22.221+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:11:22.228+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:22.228+0200] {dag.py:2726} INFO - Creating ORM DAG for example_sensors
+[2024-08-28T10:11:22.233+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:22.233+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:11:22.242+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.117 seconds
+[2024-08-28T10:12:05.967+0200] {processor.py:153} INFO - Started process (PID=75000) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:12:05.969+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:12:05.970+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:05.970+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:12:05.995+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:12:06.013+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:06.013+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:12:06.027+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:06.026+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:12:06.039+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2024-08-28T10:12:46.560+0200] {processor.py:153} INFO - Started process (PID=75063) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:12:46.562+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:12:46.564+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:46.564+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:12:46.593+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:12:46.612+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:46.611+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:12:46.624+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:46.623+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:12:46.634+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.080 seconds
+[2024-08-28T10:13:29.634+0200] {processor.py:153} INFO - Started process (PID=75121) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:13:29.635+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:13:29.637+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:29.636+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:13:29.658+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:13:29.675+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:29.675+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:13:29.688+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:29.687+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:13:29.697+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.068 seconds
+[2024-08-28T10:14:11.643+0200] {processor.py:153} INFO - Started process (PID=75198) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:14:11.644+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:14:11.645+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:11.645+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:14:11.676+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:14:11.694+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:11.694+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:14:11.708+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:11.707+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:14:11.718+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2024-08-28T10:14:53.973+0200] {processor.py:153} INFO - Started process (PID=75246) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:14:53.975+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:14:53.976+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:53.976+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:14:54.000+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:14:54.017+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:54.017+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:14:54.031+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:54.031+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:14:54.041+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.072 seconds
+[2024-08-28T10:15:34.635+0200] {processor.py:153} INFO - Started process (PID=75290) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:15:34.636+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:15:34.638+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:34.637+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:15:34.660+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:15:34.676+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:34.676+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:15:34.687+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:34.687+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:15:34.697+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.066 seconds
+[2024-08-28T10:16:15.046+0200] {processor.py:153} INFO - Started process (PID=75335) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:16:15.048+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:16:15.049+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:15.049+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:16:15.075+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:16:15.092+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:15.091+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:16:15.103+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:15.103+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:16:15.113+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.073 seconds
+[2024-08-28T10:16:55.869+0200] {processor.py:153} INFO - Started process (PID=75381) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:16:55.871+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:16:55.872+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:55.872+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:16:55.895+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:16:55.912+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:55.912+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:16:55.924+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:55.924+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:16:55.934+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.069 seconds
+[2024-08-28T10:17:36.498+0200] {processor.py:153} INFO - Started process (PID=75434) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:17:36.500+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:17:36.502+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:17:36.501+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:17:36.526+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:17:36.542+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:17:36.542+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:17:36.555+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:17:36.554+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:17:36.565+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.071 seconds
+[2024-08-28T10:43:59.705+0200] {processor.py:153} INFO - Started process (PID=75531) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:43:59.706+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:43:59.707+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:43:59.707+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:43:59.728+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:43:59.745+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:43:59.744+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:43:59.757+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:43:59.756+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:43:59.767+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.066 seconds
+[2024-08-28T10:44:42.050+0200] {processor.py:153} INFO - Started process (PID=75583) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:44:42.052+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:44:42.053+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:44:42.053+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:44:42.075+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:44:42.099+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:44:42.098+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:44:42.112+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:44:42.112+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:44:42.123+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2024-08-28T10:45:24.922+0200] {processor.py:153} INFO - Started process (PID=75642) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:45:24.924+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:45:24.926+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:24.925+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:45:24.959+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:45:24.979+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:24.979+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:45:24.992+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:24.992+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:45:25.004+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.086 seconds
+[2024-08-28T10:46:03.908+0200] {processor.py:153} INFO - Started process (PID=75688) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:46:03.910+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:46:03.911+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:03.911+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:46:03.933+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:46:03.949+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:03.948+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:46:03.962+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:03.962+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:46:03.972+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.068 seconds
+[2024-08-28T10:46:46.421+0200] {processor.py:153} INFO - Started process (PID=75732) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:46:46.424+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:46:46.425+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:46.425+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:46:46.448+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:46:46.465+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:46.465+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:46:46.477+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:46.477+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:46:46.494+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.079 seconds
+[2024-08-28T10:47:27.498+0200] {processor.py:153} INFO - Started process (PID=75789) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:47:27.500+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:47:27.502+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:27.501+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:47:27.526+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:47:27.544+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:27.544+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:47:27.556+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:27.556+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:47:27.566+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.073 seconds
+[2024-08-28T10:48:08.950+0200] {processor.py:153} INFO - Started process (PID=75845) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:48:08.952+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:48:08.953+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:08.953+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:48:08.976+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:48:08.997+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:08.997+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:48:09.013+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:09.013+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:48:09.023+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2024-08-28T10:48:50.322+0200] {processor.py:153} INFO - Started process (PID=75909) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:48:50.323+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:48:50.325+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:50.324+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:48:50.350+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:48:50.367+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:50.367+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:48:50.381+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:50.381+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:48:50.393+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.076 seconds
+[2024-08-28T10:49:31.776+0200] {processor.py:153} INFO - Started process (PID=75955) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:49:31.779+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:49:31.780+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:31.779+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:49:31.802+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:49:31.822+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:31.822+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:49:31.834+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:31.833+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:49:31.843+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.071 seconds
+[2024-08-28T10:50:12.433+0200] {processor.py:153} INFO - Started process (PID=76000) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:50:12.434+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:50:12.435+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:12.435+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:50:12.457+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:50:12.473+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:12.473+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:50:12.485+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:12.485+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:50:12.494+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.065 seconds
+[2024-08-28T10:50:53.189+0200] {processor.py:153} INFO - Started process (PID=76045) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:50:53.190+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:50:53.191+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:53.191+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:50:53.212+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:50:53.230+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:53.229+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:50:53.245+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:53.244+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:50:53.258+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.073 seconds
+[2024-08-28T10:51:36.069+0200] {processor.py:153} INFO - Started process (PID=76106) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:51:36.071+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:51:36.072+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:36.072+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:51:36.098+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:51:36.114+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:36.114+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:51:36.126+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:36.126+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:51:36.136+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.072 seconds
+[2024-08-28T10:52:15.608+0200] {processor.py:153} INFO - Started process (PID=76161) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:52:15.613+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:52:15.614+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:15.614+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:52:15.644+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:52:15.659+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:15.659+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:52:15.670+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:15.670+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:52:15.680+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.077 seconds
+[2024-08-28T10:52:59.446+0200] {processor.py:153} INFO - Started process (PID=76207) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:52:59.449+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-28T10:52:59.450+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:59.450+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:52:59.474+0200] {processor.py:753} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-28T10:52:59.491+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:59.491+0200] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-08-28T10:52:59.503+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:59.503+0200] {dag.py:3456} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-28T10:52:59.514+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/example_sensors.py took 0.072 seconds

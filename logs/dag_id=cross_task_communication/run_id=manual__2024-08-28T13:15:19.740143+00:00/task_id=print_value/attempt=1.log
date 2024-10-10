@@ -1,0 +1,24 @@
+[2024-08-28T15:15:27.277+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication.print_value manual__2024-08-28T13:15:19.740143+00:00 [queued]>
+[2024-08-28T15:15:27.283+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication.print_value manual__2024-08-28T13:15:19.740143+00:00 [queued]>
+[2024-08-28T15:15:27.283+0200] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-28T15:15:27.283+0200] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-08-28T15:15:27.283+0200] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-28T15:15:27.289+0200] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): print_value> on 2024-08-28 13:15:19.740143+00:00
+[2024-08-28T15:15:27.296+0200] {standard_task_runner.py:55} INFO - Started process 87641 to run task
+[2024-08-28T15:15:27.304+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cross_task_communication', 'print_value', 'manual__2024-08-28T13:15:19.740143+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/cross_task_comm.py', '--cfg-path', '/var/folders/q3/lf85n5dd03zdfbv5xqcw4__40000gn/T/tmpjv5sr2nn']
+[2024-08-28T15:15:27.306+0200] {standard_task_runner.py:83} INFO - Job 50: Subtask print_value
+[2024-08-28T15:15:27.339+0200] {task_command.py:389} INFO - Running <TaskInstance: cross_task_communication.print_value manual__2024-08-28T13:15:19.740143+00:00 [running]> on host roselinas-mbp
+[2024-08-28T15:15:27.368+0200] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Roselina_m
+AIRFLOW_CTX_DAG_ID=cross_task_communication
+AIRFLOW_CTX_TASK_ID=print_value
+AIRFLOW_CTX_EXECUTION_DATE=2024-08-28T13:15:19.740143+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-08-28T13:15:19.740143+00:00
+[2024-08-28T15:15:27.371+0200] {logging_mixin.py:137} INFO - Value 191!
+[2024-08-28T15:15:27.372+0200] {python.py:177} INFO - Done. Returned value was: None
+[2024-08-28T15:15:27.375+0200] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=cross_task_communication, task_id=print_value, execution_date=20240828T131519, start_date=20240828T131527, end_date=20240828T131527
+[2024-08-28T15:15:27.412+0200] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-08-28T15:15:27.421+0200] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

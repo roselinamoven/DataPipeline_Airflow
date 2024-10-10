@@ -1,0 +1,23 @@
+[2024-08-29T12:54:49.573+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taskgroups_and_edgelabels.filtering.filter_by_southwest scheduled__2024-08-28T00:00:00+00:00 [queued]>
+[2024-08-29T12:54:49.579+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taskgroups_and_edgelabels.filtering.filter_by_southwest scheduled__2024-08-28T00:00:00+00:00 [queued]>
+[2024-08-29T12:54:49.579+0200] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-29T12:54:49.579+0200] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-08-29T12:54:49.579+0200] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-29T12:54:49.585+0200] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): filtering.filter_by_southwest> on 2024-08-28 00:00:00+00:00
+[2024-08-29T12:54:49.594+0200] {standard_task_runner.py:55} INFO - Started process 6776 to run task
+[2024-08-29T12:54:49.603+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'taskgroups_and_edgelabels', 'filtering.filter_by_southwest', 'scheduled__2024-08-28T00:00:00+00:00', '--job-id', '126', '--raw', '--subdir', 'DAGS_FOLDER/task_groups.py', '--cfg-path', '/var/folders/q3/lf85n5dd03zdfbv5xqcw4__40000gn/T/tmpc_8r1f8p']
+[2024-08-29T12:54:49.606+0200] {standard_task_runner.py:83} INFO - Job 126: Subtask filtering.filter_by_southwest
+[2024-08-29T12:54:49.639+0200] {task_command.py:389} INFO - Running <TaskInstance: taskgroups_and_edgelabels.filtering.filter_by_southwest scheduled__2024-08-28T00:00:00+00:00 [running]> on host roselinas-mbp
+[2024-08-29T12:54:49.667+0200] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Roselina_m
+AIRFLOW_CTX_DAG_ID=taskgroups_and_edgelabels
+AIRFLOW_CTX_TASK_ID=filtering.filter_by_southwest
+AIRFLOW_CTX_EXECUTION_DATE=2024-08-28T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-08-28T00:00:00+00:00
+[2024-08-29T12:54:49.691+0200] {python.py:177} INFO - Done. Returned value was: None
+[2024-08-29T12:54:49.695+0200] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=taskgroups_and_edgelabels, task_id=filtering.filter_by_southwest, execution_date=20240828T000000, start_date=20240829T105449, end_date=20240829T105449
+[2024-08-29T12:54:49.712+0200] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-08-29T12:54:49.720+0200] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,39 @@
+[2024-08-29T11:40:17.696+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: executing_sql_pipeline.insert_values_2 manual__2024-08-29T09:40:12.060611+00:00 [queued]>
+[2024-08-29T11:40:17.702+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: executing_sql_pipeline.insert_values_2 manual__2024-08-29T09:40:12.060611+00:00 [queued]>
+[2024-08-29T11:40:17.702+0200] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-29T11:40:17.702+0200] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-08-29T11:40:17.702+0200] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-29T11:40:17.709+0200] {taskinstance.py:1309} INFO - Executing <Task(SqliteOperator): insert_values_2> on 2024-08-29 09:40:12.060611+00:00
+[2024-08-29T11:40:17.716+0200] {standard_task_runner.py:55} INFO - Started process 1187 to run task
+[2024-08-29T11:40:17.725+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'executing_sql_pipeline', 'insert_values_2', 'manual__2024-08-29T09:40:12.060611+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/create_sql_pipeline.py', '--cfg-path', '/var/folders/q3/lf85n5dd03zdfbv5xqcw4__40000gn/T/tmpch233ywi']
+[2024-08-29T11:40:17.728+0200] {standard_task_runner.py:83} INFO - Job 86: Subtask insert_values_2
+[2024-08-29T11:40:17.811+0200] {task_command.py:389} INFO - Running <TaskInstance: executing_sql_pipeline.insert_values_2 manual__2024-08-29T09:40:12.060611+00:00 [running]> on host roselinas-mbp
+[2024-08-29T11:40:17.838+0200] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Roselina_m
+AIRFLOW_CTX_DAG_ID=executing_sql_pipeline
+AIRFLOW_CTX_TASK_ID=insert_values_2
+AIRFLOW_CTX_EXECUTION_DATE=2024-08-29T09:40:12.060611+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-08-29T09:40:12.060611+00:00
+[2024-08-29T11:40:17.839+0200] {sql.py:254} INFO - Executing: 
+            INSERT INTO users (name, age) VALUES 
+                ('Harry', 49),
+                ('Nancy', 52),
+                ('Elvis', 26),
+                ('Mia', 20);
+        
+[2024-08-29T11:40:17.841+0200] {base.py:73} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-08-29T11:40:17.885+0200] {base.py:73} INFO - Using connection ID 'my_sqlite_conn' for task execution.
+[2024-08-29T11:40:17.885+0200] {sql.py:375} INFO - Running statement: 
+            INSERT INTO users (name, age) VALUES 
+                ('Harry', 49),
+                ('Nancy', 52),
+                ('Elvis', 26),
+                ('Mia', 20);
+        , parameters: None
+[2024-08-29T11:40:17.886+0200] {sql.py:384} INFO - Rows affected: 4
+[2024-08-29T11:40:17.889+0200] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=executing_sql_pipeline, task_id=insert_values_2, execution_date=20240829T094012, start_date=20240829T094017, end_date=20240829T094017
+[2024-08-29T11:40:17.923+0200] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-08-29T11:40:17.976+0200] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

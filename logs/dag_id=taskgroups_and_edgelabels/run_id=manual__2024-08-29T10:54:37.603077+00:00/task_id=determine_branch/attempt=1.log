@@ -1,0 +1,27 @@
+[2024-08-29T12:54:47.826+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: taskgroups_and_edgelabels.determine_branch manual__2024-08-29T10:54:37.603077+00:00 [queued]>
+[2024-08-29T12:54:47.832+0200] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: taskgroups_and_edgelabels.determine_branch manual__2024-08-29T10:54:37.603077+00:00 [queued]>
+[2024-08-29T12:54:47.832+0200] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-29T12:54:47.832+0200] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-08-29T12:54:47.832+0200] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-08-29T12:54:47.838+0200] {taskinstance.py:1309} INFO - Executing <Task(BranchPythonOperator): determine_branch> on 2024-08-29 10:54:37.603077+00:00
+[2024-08-29T12:54:47.847+0200] {standard_task_runner.py:55} INFO - Started process 6771 to run task
+[2024-08-29T12:54:47.854+0200] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'taskgroups_and_edgelabels', 'determine_branch', 'manual__2024-08-29T10:54:37.603077+00:00', '--job-id', '125', '--raw', '--subdir', 'DAGS_FOLDER/task_groups.py', '--cfg-path', '/var/folders/q3/lf85n5dd03zdfbv5xqcw4__40000gn/T/tmpvl69adhg']
+[2024-08-29T12:54:47.856+0200] {standard_task_runner.py:83} INFO - Job 125: Subtask determine_branch
+[2024-08-29T12:54:47.891+0200] {task_command.py:389} INFO - Running <TaskInstance: taskgroups_and_edgelabels.determine_branch manual__2024-08-29T10:54:37.603077+00:00 [running]> on host roselinas-mbp
+[2024-08-29T12:54:47.919+0200] {taskinstance.py:1518} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Roselina_m
+AIRFLOW_CTX_DAG_ID=taskgroups_and_edgelabels
+AIRFLOW_CTX_TASK_ID=determine_branch
+AIRFLOW_CTX_EXECUTION_DATE=2024-08-29T10:54:37.603077+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-08-29T10:54:37.603077+00:00
+[2024-08-29T12:54:47.922+0200] {logging_mixin.py:137} INFO - filter_by_southwest
+[2024-08-29T12:54:47.922+0200] {python.py:177} INFO - Done. Returned value was: filtering.filter_by_southwest
+[2024-08-29T12:54:47.922+0200] {python.py:211} INFO - Branch callable return filtering.filter_by_southwest
+[2024-08-29T12:54:47.922+0200] {skipmixin.py:155} INFO - Following branch filtering.filter_by_southwest
+[2024-08-29T12:54:47.923+0200] {skipmixin.py:211} INFO - Skipping tasks ['filtering.filter_by_northeast', 'filtering.filter_by_southeast', 'grouping.groupby_region_smoker', 'filtering.filter_by_northwest']
+[2024-08-29T12:54:47.934+0200] {taskinstance.py:1332} INFO - Marking task as SUCCESS. dag_id=taskgroups_and_edgelabels, task_id=determine_branch, execution_date=20240829T105437, start_date=20240829T105447, end_date=20240829T105447
+[2024-08-29T12:54:47.961+0200] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-08-29T12:54:47.975+0200] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

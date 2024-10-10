@@ -1,0 +1,350 @@
+[2024-08-28T10:11:01.546+0200] {processor.py:153} INFO - Started process (PID=74896) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:11:01.548+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:11:01.549+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:01.549+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:11:01.555+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:01.551+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:11:01.557+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:11:01.571+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-08-28T10:11:46.976+0200] {processor.py:153} INFO - Started process (PID=74963) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:11:46.978+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:11:46.979+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:46.979+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:11:46.983+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:11:46.981+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:11:46.983+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:11:46.995+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.023 seconds
+[2024-08-28T10:12:28.338+0200] {processor.py:153} INFO - Started process (PID=75029) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:12:28.340+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:12:28.342+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:28.341+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:12:28.346+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:12:28.345+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:12:28.347+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:12:28.355+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.022 seconds
+[2024-08-28T10:13:10.770+0200] {processor.py:153} INFO - Started process (PID=75100) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:13:10.772+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:13:10.773+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:10.773+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:13:10.779+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:10.777+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:13:10.779+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:13:10.799+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.034 seconds
+[2024-08-28T10:13:51.919+0200] {processor.py:153} INFO - Started process (PID=75154) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:13:51.922+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:13:51.923+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:51.923+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:13:51.931+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:13:51.928+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:13:51.932+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:13:51.947+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2024-08-28T10:14:34.883+0200] {processor.py:153} INFO - Started process (PID=75226) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:14:34.884+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:14:34.886+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:34.885+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:14:34.892+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:14:34.889+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:14:34.893+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:14:34.912+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2024-08-28T10:15:16.662+0200] {processor.py:153} INFO - Started process (PID=75270) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:15:16.664+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:15:16.665+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:16.665+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:15:16.671+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:16.669+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:15:16.671+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:15:16.688+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2024-08-28T10:15:58.404+0200] {processor.py:153} INFO - Started process (PID=75315) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:15:58.406+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:15:58.408+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:58.407+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:15:58.413+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:15:58.411+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:15:58.413+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:15:58.428+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-08-28T10:16:36.222+0200] {processor.py:153} INFO - Started process (PID=75360) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:16:36.224+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:16:36.225+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:36.225+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:16:36.231+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:16:36.229+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:16:36.232+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:16:36.247+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2024-08-28T10:17:18.692+0200] {processor.py:153} INFO - Started process (PID=75405) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:17:18.694+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:17:18.696+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:17:18.695+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:17:18.701+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:17:18.699+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:17:18.702+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:17:18.718+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2024-08-28T10:34:43.456+0200] {processor.py:153} INFO - Started process (PID=75482) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:34:43.458+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:34:43.459+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:34:43.458+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:34:43.465+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:34:43.462+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:34:43.465+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:34:43.474+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.021 seconds
+[2024-08-28T10:44:23.798+0200] {processor.py:153} INFO - Started process (PID=75560) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:44:23.800+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:44:23.801+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:44:23.801+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:44:23.807+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:44:23.805+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:44:23.807+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:44:23.823+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds
+[2024-08-28T10:45:05.446+0200] {processor.py:153} INFO - Started process (PID=75620) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:45:05.448+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:45:05.450+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:05.449+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:45:05.456+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:05.454+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:45:05.456+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:45:05.471+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2024-08-28T10:45:46.084+0200] {processor.py:153} INFO - Started process (PID=75667) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:45:46.090+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:45:46.092+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:46.091+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:45:46.114+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:45:46.106+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:45:46.114+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:45:46.131+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.052 seconds
+[2024-08-28T10:46:28.090+0200] {processor.py:153} INFO - Started process (PID=75712) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:46:28.092+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:46:28.094+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:28.093+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:46:28.099+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:46:28.098+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:46:28.100+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:46:28.116+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2024-08-28T10:47:09.317+0200] {processor.py:153} INFO - Started process (PID=75766) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:47:09.330+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:47:09.332+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:09.331+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:47:09.351+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:09.343+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:47:09.351+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:47:09.362+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.050 seconds
+[2024-08-28T10:47:50.277+0200] {processor.py:153} INFO - Started process (PID=75815) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:47:50.280+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:47:50.281+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:50.281+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:47:50.286+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:47:50.284+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:47:50.287+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:47:50.303+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.031 seconds
+[2024-08-28T10:48:32.064+0200] {processor.py:153} INFO - Started process (PID=75881) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:48:32.067+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:48:32.068+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:32.068+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:48:32.074+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:48:32.072+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:48:32.075+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:48:32.090+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2024-08-28T10:49:12.763+0200] {processor.py:153} INFO - Started process (PID=75934) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:49:12.764+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:49:12.765+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:12.765+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:49:12.770+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:12.769+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:49:12.772+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:49:12.787+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-08-28T10:49:54.461+0200] {processor.py:153} INFO - Started process (PID=75980) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:49:54.463+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:49:54.464+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:54.464+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:49:54.469+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:49:54.467+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:49:54.469+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:49:54.485+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-08-28T10:50:35.405+0200] {processor.py:153} INFO - Started process (PID=76025) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:50:35.406+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:50:35.408+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:35.407+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:50:35.413+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:50:35.412+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:50:35.414+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:50:35.430+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.030 seconds
+[2024-08-28T10:51:17.404+0200] {processor.py:153} INFO - Started process (PID=76079) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:51:17.406+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:51:17.407+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:17.407+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:51:17.415+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:17.412+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:51:17.415+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:51:17.431+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.033 seconds
+[2024-08-28T10:51:58.467+0200] {processor.py:153} INFO - Started process (PID=76132) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:51:58.469+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:51:58.471+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:58.470+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:51:58.476+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:51:58.474+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:51:58.476+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:51:58.495+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.032 seconds
+[2024-08-28T10:52:39.815+0200] {processor.py:153} INFO - Started process (PID=76186) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:52:39.817+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:52:39.818+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:39.818+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:52:39.825+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:52:39.822+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:52:39.825+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:52:39.840+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.028 seconds
+[2024-08-28T10:53:22.259+0200] {processor.py:153} INFO - Started process (PID=76236) to work on /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:53:22.260+0200] {processor.py:743} INFO - Processing file /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-08-28T10:53:22.261+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:53:22.261+0200] {dagbag.py:532} INFO - Filling up the DagBag from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:53:22.266+0200] {logging_mixin.py:137} INFO - [2024-08-28T10:53:22.264+0200] {dagbag.py:341} ERROR - Failed to import: /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+Traceback (most recent call last):
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py", line 24, in <module>
+    from pandas.tseries.holiday import USFederalHolidayCalendar
+ModuleNotFoundError: No module named 'pandas'
+[2024-08-28T10:53:22.266+0200] {processor.py:755} WARNING - No viable dags retrieved from /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py
+[2024-08-28T10:53:22.280+0200] {processor.py:175} INFO - Processing /Users/roselina/opt/anaconda3/envs/python37/lib/python3.7/site-packages/airflow/example_dags/plugins/workday.py took 0.025 seconds
